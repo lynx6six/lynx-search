@@ -1,0 +1,32 @@
+:root {
+  --ink: #17211c;
+  --paper: #fbfcf7;
+  --canvas: #eef2eb;
+  --line: #d0d9cf;
+  --muted: #78867d;
+  --acid: #c9f06a;
+  --acid-dark: #648d47;
+  --orange: #d77c5b;
+  --mono: 'IBM Plex Mono', 'SFMono-Regular', Menlo, Consolas, monospace;
+  color: var(--ink);
+  background: var(--canvas);
+  font-family: var(--mono);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(rgba(23, 33, 28, 0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(23, 33, 28, 0.025) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+button, input { font: inherit; }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--orange); outline-offset: 3px; }
+p { margin: 0; }
